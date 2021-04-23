@@ -22,7 +22,7 @@ import { Dustin } from "https://dustin.gg/me/dustin.ts";
         }
     } catch (err) {
         switch (err) {
-            case "Warning":
+            default:
                 me.checkSelf();
                 break;
             case "InternalError":
