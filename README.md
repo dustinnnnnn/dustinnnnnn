@@ -21,7 +21,7 @@ import { Dustin } from "https://dustin.gg/me/dustin.ts";
             return "Sleeping, try again later.";
         }
     } catch (err) {
-        switch (err) {
+        switch (err.name) {
             default:
                 me.checkSelf();
                 break;
