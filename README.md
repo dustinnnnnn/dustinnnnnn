@@ -14,9 +14,7 @@ import { Dustin } from "https://dustin.gg/me/dustin.ts";
         const me = Dustin.getPresentState();
 
         if (me.isAwake()) {
-            if (me.isSad) {
-                me.shuffleAudio(__dirname + "../sadMusic/unreleased-JuiceWRLD");
-            }
+            if (me.isSad) me.shuffleAudio(__dirname + "../sadMusic/unreleased-JuiceWRLD");
             if (!me.isLazy) await me.codeProjects();
             if (me.isTired) await me.sleep(3.6e7);
         } else {
