@@ -7,31 +7,28 @@
 </p>
 
 ```javascript
-"use strict";
-
 import { Dustin } from "https://dustin.gg/me/dustin.ts";
 
 (async () => {
     try {
-        const me = Dustin();
+        const me = Dustin.getPresentState();
 
-    	while(me.isAlive()) {
-	    if (me.isAwake()) {
-            	if(!me.isLazy) await me.codeProjects();
-                if (me.isSad) me.shuffleAudio(__dirname + "../sadMusic/unreleased-JuiceWRLD");
-                if (me.isTired) await me.sleep(3.6e7);
-            } else {
-		return "Sleeping, try again later.";
+        if (me.isAwake()) {
+            if (me.isSad) {
+                me.shuffleAudio(__dirname + "../sadMusic/unreleased-JuiceWRLD");
             }
-	}
+            if (!me.isLazy) await me.codeProjects();
+            if (me.isTired) await me.sleep(3.6e7);
+        } else {
+            return "Sleeping, try again later.";
+        }
     } catch (err) {
-    	switch (err) {
+        switch (err) {
             case "Warning":
-            	me.checkSelf();
+                me.checkSelf();
                 break;
             case "InternalError":
-            	return "wasted";
-                break;
+                return "wasted";
         }
     }
 })();
