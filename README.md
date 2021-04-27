@@ -44,7 +44,7 @@ import { Dustin } from "https://dustin.gg/me/dustin.ts";
 </p>
 <hr>
 <p float="left">
-<img width=49.5% src="https://github-readme-stats.vercel.app/api?username=dustinsbustin&count_private=true&show_icons=true&theme=radical" />
+<img width=49.5% src="https://github-readme-stats.vercel.app/api?username=dustinsbustin&count_private=true&include_all_commits=true&show_icons=true&theme=radical" />
 <img width=49.5% src="https://github-readme-streak-stats.herokuapp.com/?user=dustinsbustin&theme=blue-green" />
 </p>
 <p float="right">
