@@ -48,7 +48,7 @@ import { Dustin } from "https://dustin.gg/me/dustin.ts";
 <img width=49.5% src="https://github-readme-streak-stats.herokuapp.com/?user=dustinsbustin&theme=blue-green" />
 </p>
 <p float="right">
-  <img width=49.5% src="https://github-readme-stats.vercel.app/api/top-langs?username=dustinsbustin&count_private=true&layout=compact&theme=radical" />
+  <img width=49.5% src="https://github-readme-stats.vercel.app/api/top-langs?username=dustinsbustin&count_private=true&include_all_commits=true&layout=compact&theme=radical" />
   <img width=49.5% src="https://github-readme-stats.vercel.app/api/wakatime?username=dustinsbustin)" />
 </p>
 <hr>
