@@ -11,7 +11,7 @@ import { Dustin } from "https://dustin.gg/me/dustin.ts";
 
 (async () => {
     try {
-        const me = Dustin.getPresentState();
+        const me = await Dustin.getPresentState();
 
         if (me.isAwake()) {
             if (me.isSad) me.shuffleAudio(__dirname + "../sadMusic/unreleased-JuiceWRLD");
