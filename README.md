@@ -14,11 +14,10 @@ import { Dustin } from "https://dustin.gg/me/dustin.ts";
         const me = await Dustin.getPresentState();
 
         if (me.isAwake()) {
-            if (me.isTired) {
+            if (me.isTired()) {
                 await me.sleep(3.6e7);
             } else {
-                if (!me.isLazy) await me.codeProjects();
-                if (me.isSad) me.shuffleAudio(__dirname + "../sadMusic/unreleased-JuiceWRLD");
+                !me.isLazy() && await me.work();
             }
         } else {
             return "Sleeping, try again later.";
