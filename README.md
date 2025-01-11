@@ -44,13 +44,3 @@ import { Dustin } from "https://dustin.gg/me/dustin.ts";
 <br/>
 <img style="height: 20px" alt="Ubuntu" src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" /><img style="height: 20px" alt="Windows 10" src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
 </p>
-<hr>
-<p float="left">
-<img width=49.5% src="https://github-readme-stats.vercel.app/api?username=dustinsbustin&count_private=true&include_all_commits=true&show_icons=true&theme=radical" />
-<img width=49.5% src="https://github-readme-streak-stats.herokuapp.com/?user=dustinsbustin&theme=blue-green" />
-</p>
-<p float="right">
-  <img width=49.5% src="https://github-readme-stats.vercel.app/api/top-langs?username=dustinsbustin&count_private=true&include_all_commits=true&layout=compact&theme=radical" />
-  <img width=49.5% src="https://github-readme-stats.vercel.app/api/wakatime?username=dustinsbustin)" />
-</p>
-<hr>
