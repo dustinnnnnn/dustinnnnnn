@@ -2,10 +2,6 @@
 
 <hr>
 
-<p align="center">
-<img src="https://gpvc.arturio.dev/dustinsbustin"/>
-</p>
-
 ```javascript
 import { Dustin } from "https://dustin.gg/me/dustin.ts";
 
